@@ -6,5 +6,5 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'md asik' });
+  res.status(200).json({ message: 'my name is asik' });
 }
